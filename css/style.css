@@ -83,6 +83,10 @@ li > a{
     padding: 10px 20px;
 }
 
+.contact-us-btn{
+    padding: 10px 60px;
+}
+
 
 /* HEADER */
 
@@ -175,7 +179,7 @@ header{
 }
 
 .plan-body{
-    padding-left: 30px;
+    padding-left: 25px;
 }
 
 .article-title{
@@ -212,8 +216,19 @@ header{
 }
 
 .buy-now{
-    text-align: center;
+    padding-left: 25px;
     padding-bottom: 20px;
+}
+
+.highlights{
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.check{
+    color: #0061ff;
+    padding-top: 15px;
+    font-size: 12px;
 }
 
 /* /Dropbox Plans Section */
