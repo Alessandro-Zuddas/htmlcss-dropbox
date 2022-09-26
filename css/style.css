@@ -54,25 +54,35 @@ li > a{
     margin: auto;
 }
 
+.divider{
+    width: 25%;
+    margin: 20px;
+    margin-left: 30px;
+}
+
 /* BUTTONS */
 
 .btn-primary{
     color: white;
     background-color: #0061ff;
     border: none;
+    padding: 5px 10px;
 }
 
 .nav-button{
-    padding: 5px 10px;
     margin-right: 20px;
 }
 
 .hero-btn{
     display: block;
-    padding: 5px 10px;
     margin-top: 25px;
     margin-bottom: 20px;
 }
+
+.free-trial-btn{
+    padding: 10px 20px;
+}
+
 
 /* HEADER */
 
@@ -150,8 +160,62 @@ header{
 
 .plans-col{
     width: calc(90% / 3);
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
+    margin-bottom: 50px;
 }
+
+.plan-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-name{
+    padding: 10px;
+}
+
+.plan-body{
+    padding-left: 30px;
+}
+
+.article-title{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.article-price{
+    display: block;
+    font-size: 13px;
+}
+
+.plan-max-users{
+    padding-top: 40px;
+}
+
+.user-icon{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.plan-cloud-memory{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.plan-functions{
+    padding-bottom: 50px;
+}
+
+.free-trial{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.buy-now{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 /* /Dropbox Plans Section */
 
 /* FOOTER */
