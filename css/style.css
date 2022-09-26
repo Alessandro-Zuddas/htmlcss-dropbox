@@ -87,6 +87,12 @@ li > a{
     padding: 10px 60px;
 }
 
+.sales-office-btn{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    padding: 10px 20px;
+}
 
 /* HEADER */
 
@@ -168,6 +174,16 @@ header{
     margin-bottom: 50px;
 }
 
+.plans-row-second{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.plans-col-big{
+    width: 100%;
+    border: 1px solid lightgrey;
+}
+
 .plan-head{
     display: flex;
     justify-content: center;
@@ -179,6 +195,7 @@ header{
 }
 
 .plan-body{
+    position: relative;
     padding-left: 25px;
 }
 
@@ -231,6 +248,11 @@ header{
     font-size: 12px;
 }
 
+.enterprise{
+    font-size: 13px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
 /* /Dropbox Plans Section */
 
 /* FOOTER */
