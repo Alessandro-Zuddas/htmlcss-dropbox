@@ -83,6 +83,7 @@ li > a{
 
 .hero-btn{
     display: block;
+    padding: 10px 20px;
     margin-top: 25px;
     margin-bottom: 20px;
 }
