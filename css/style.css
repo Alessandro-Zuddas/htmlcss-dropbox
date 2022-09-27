@@ -377,10 +377,26 @@ header{
 }
 
 .affiliates-square{
+    position: relative;
     width: calc(100% / 2);
     height: 15vw;
 }
 
+.affiliates-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-aff-one{
+    width: 50%;
+    fill: white;
+}
+
+.affiliates-one{
+    background-color: #a2d39b;
+}
 
 /* /Dropbox Affiliates Section */
 
