@@ -320,7 +320,22 @@ header{
 
 /* Dropbox Business Section */
 
+.business-text{
+    font-size: 35px;
+    margin-top: 125px;
+    margin-bottom: 50px;
+}
 
+.business-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.business-col{
+    width: calc(90% / 3);
+}
 
 /* /Dropbox Business Section */
 
