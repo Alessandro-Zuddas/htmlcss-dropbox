@@ -476,4 +476,38 @@ header{
 
 /* /Banner Section */
 
+/* FAQ Section */
+
+.faq-section{
+    padding-bottom: 125px;
+}
+
+.faq-container{
+    position: relative;
+    width: 100%;
+}
+
+.faq-title{
+    font-size: 35px;
+    
+    padding-top: 150px;
+    padding-bottom: 75px;
+}
+
+.faq-text{
+    text-align: left;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.faq-answer{
+    position: absolute;
+    top: 45%;
+    right: 5%;
+}
+
+/* /FAQ Section */
+
 /* FOOTER */
