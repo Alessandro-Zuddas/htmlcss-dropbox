@@ -107,6 +107,10 @@ li > a{
     margin-top: 15px;
 }
 
+.banner-btn{
+    padding: 10px 40px;
+}
+
 /* HEADER */
 
 header{
@@ -457,7 +461,17 @@ header{
 }
 
 .banner-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 48%;
+}
+
+.banner-title{
+    font-size: 35px;
+    color: #61082b;
+    padding-top: 125px;
+    padding-bottom: 125px;
 }
 
 /* /Banner Section */
