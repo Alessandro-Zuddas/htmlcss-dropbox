@@ -374,6 +374,9 @@ header{
 
 .affiliates-col-big{
     width: 40%;
+    padding-left: 40px;
+    overflow-y: auto;
+    background-color: #f5f5f5;
 }
 
 .affiliates-square{
@@ -387,15 +390,55 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.img-aff-one{
     width: 50%;
-    fill: white;
 }
 
 .affiliates-one{
     background-color: #a2d39b;
+    border: 15px solid rgba(255, 255, 255, 0.5);
+}
+
+.affiliates-two{
+    background-color: #61082b;
+}
+
+.affiliates-three{
+    background-color: #0093ce;
+}
+
+.affiliates-four{
+    background-color: #ff1c1c;
+}
+
+.affiliates-five{
+    background-color: #d5001f;
+}
+
+.affiliates-six{
+    background-color: #b4d0e7;
+}
+
+.affiliates-seven{
+    background-color: #0d2481;
+}
+
+.affiliates-eight{
+    background-color: #ffd830;
+}
+
+.affiliates-img-big{
+    width: 35%;
+    padding-top: 40px;
+}
+
+.affiliates-divider{
+    width: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.aff-desc{
+    padding-bottom: 60px;
 }
 
 /* /Dropbox Affiliates Section */
