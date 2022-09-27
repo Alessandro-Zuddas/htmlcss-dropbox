@@ -353,9 +353,32 @@ header{
 
 .business-link{
     color: #0061ff;
-    padding-bottom: 50px;
 }
 
 /* /Dropbox Business Section */
+
+/* Dropbox Affiliati Section */
+
+.affiliates-row{
+    display: flex;
+    width: 99vw;
+    margin-top: 100px;
+}
+
+.affiliates-col-small{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.affiliates-col-big{
+    width: 40%;
+}
+
+.affiliates-square{
+    width: calc(100% / 2);
+}
+
+/* /Dropbox Affiliati Section */
 
 /* FOOTER */
