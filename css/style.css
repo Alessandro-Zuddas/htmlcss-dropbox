@@ -512,14 +512,64 @@ header{
 
 /* FOOTER */
 
+footer{
+    background-color: black;
+}
+
 .footer-row{
     display: flex;
-    justify-content: space-between;
     width: 100%;
 }
 
 .footer-col{
-    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
     margin-top: 125px;
     margin-bottom: 125px;
+}
+
+.list-head{
+    display: flex;
+    justify-content: flex-start;
+    width: 58%;
+}
+
+.footer-titles{
+    text-align: left;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.footer-list{
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-list-text{
+    color: white;
+}
+
+.footer-divider{
+    width: 5%;
+    margin-left: 45px;
+    margin-bottom: 25px;
+    filter: invert(80%);
+}
+
+.footer-row-small{
+    width: 8%;
+    margin-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid grey;
+}
+
+.footer-col-small{
+    color: grey;
+}
+
+.footer-arrow{
+    font-size: 10px;
 }
