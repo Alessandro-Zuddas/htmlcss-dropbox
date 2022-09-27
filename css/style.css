@@ -227,20 +227,25 @@ header{
 }
 
 .plan-max-users{
+    display: flex;
     padding-top: 40px;
 }
 
 .user-icon{
     font-size: 12px;
     padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
 }
 
 .plan-cloud-memory{
+    display: flex;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
 .plan-functions{
+    display: flex;
     padding-bottom: 50px;
 }
 
@@ -257,6 +262,15 @@ header{
 .highlights{
     padding-left: 25px;
     padding-bottom: 25px;
+}
+
+.highlights-container{
+    display: flex;
+}
+
+.highlights-text{
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .check{
@@ -303,5 +317,11 @@ header{
 }
 
 /* /Dropbox Partner Section */
+
+/* Dropbox Business Section */
+
+
+
+/* /Dropbox Business Section */
 
 /* FOOTER */
