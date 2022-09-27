@@ -219,6 +219,7 @@ header{
 .article-price{
     display: block;
     font-size: 13px;
+    padding-bottom: 10px;
 }
 
 .plan-max-users{
