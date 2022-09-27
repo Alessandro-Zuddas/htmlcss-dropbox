@@ -26,6 +26,7 @@ body{
     font-size: 35px;
 }
 
+
 /* COMMON */
 
 nav > ul{
@@ -69,6 +70,13 @@ li > a{
     padding: 5px 10px;
 }
 
+.btn-secondary{
+    color: black;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 10px 15px;
+}
+
 .nav-button{
     margin-right: 20px;
 }
@@ -92,6 +100,10 @@ li > a{
     top: 15%;
     right: 5%;
     padding: 10px 20px;
+}
+
+.partner-btn{
+    margin-top: 15px;
 }
 
 /* HEADER */
@@ -268,6 +280,20 @@ header{
 
 .partner-col-small{
     width: 35%;
+    position: relative;
+}
+
+.partner-img{
+    width: 100%;
+}
+
+.partner-description{
+    position: absolute;
+    top: 15%;
+}
+
+.partner-title{
+    padding-bottom: 10px;
 }
 
 /* /Dropbox Partner Section */
