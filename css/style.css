@@ -176,7 +176,6 @@ header{
 
 .plans-row-second{
     display: flex;
-    margin-bottom: 40px;
 }
 
 .plans-col-big{
@@ -254,5 +253,23 @@ header{
     padding-bottom: 20px;
 }
 /* /Dropbox Plans Section */
+
+/* Dropbox Partner Section */
+
+.partner-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.partner-col-big{
+    width: 60%;
+}
+
+.partner-col-small{
+    width: 35%;
+}
+
+/* /Dropbox Partner Section */
 
 /* FOOTER */
