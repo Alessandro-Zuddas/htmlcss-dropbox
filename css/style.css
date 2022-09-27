@@ -511,3 +511,15 @@ header{
 /* /FAQ Section */
 
 /* FOOTER */
+
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-col{
+    width: 15%;
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
