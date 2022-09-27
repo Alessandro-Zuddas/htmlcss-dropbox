@@ -362,6 +362,7 @@ header{
 .affiliates-row{
     display: flex;
     width: 99vw;
+    height: 30vw;
     margin-top: 100px;
 }
 
@@ -377,7 +378,9 @@ header{
 
 .affiliates-square{
     width: calc(100% / 2);
+    height: 15vw;
 }
+
 
 /* /Dropbox Affiliates Section */
 
