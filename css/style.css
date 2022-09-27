@@ -444,4 +444,22 @@ header{
 
 /* /Dropbox Affiliates Section */
 
+/* Banner Section */
+
+.banner-background{
+    background-color: #b4d0e7;
+}
+
+.banner-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.banner-col{
+    width: 48%;
+}
+
+/* /Banner Section */
+
 /* FOOTER */
