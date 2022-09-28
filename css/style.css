@@ -18,9 +18,6 @@ body{
     padding-bottom: 60px;
 }
 
-.hero-p{
-    font-size: 14px;
-}
 
 .plans-title{
     font-size: 35px;
@@ -36,7 +33,6 @@ nav > ul{
 li > a{
     text-decoration: none;
     padding-right: 30px;
-    font-size: 13px;
     color: black;
 }
 
@@ -490,7 +486,6 @@ header{
 
 .faq-title{
     font-size: 35px;
-    
     padding-top: 150px;
     padding-bottom: 75px;
 }
@@ -546,10 +541,15 @@ footer{
 .footer-list{
     list-style: none;
     text-decoration: none;
+    font-size: 13px;
 }
 
 .footer-list-text{
     color: white;
+}
+
+.footer-list > li{
+    padding-bottom: 10px;
 }
 
 .footer-divider{
