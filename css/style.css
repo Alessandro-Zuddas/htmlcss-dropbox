@@ -57,6 +57,10 @@ li > a{
     margin-left: 30px;
 }
 
+a{
+    color: #0055f2;
+}
+
 /* BUTTONS */
 
 .btn-primary{
@@ -354,10 +358,6 @@ header{
     width: 100%;
 }
 
-.business-link{
-    color: #0061ff;
-}
-
 /* /Dropbox Business Section */
 
 /* Dropbox Affiliates Section */
@@ -576,3 +576,19 @@ footer{
 .footer-arrow{
     font-size: 10px;
 }
+
+/* EFFECTS & ANIMATIONS */
+
+.nav-link:hover{
+    color: #61082b;
+}
+
+.btn-primary:hover{
+    filter: opacity(0.9);
+}
+
+a:hover{
+    filter: opacity(0.9);
+}
+
+/* /EFFECTS & ANIMATIONS */
