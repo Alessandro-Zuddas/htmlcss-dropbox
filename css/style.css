@@ -137,6 +137,7 @@ header{
 .logo{
     padding-left: 20px;
     padding: 20px;
+    cursor: pointer;
 }
 
 /* MAIN */
