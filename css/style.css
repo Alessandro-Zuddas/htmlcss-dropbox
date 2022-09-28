@@ -587,8 +587,12 @@ footer{
     filter: opacity(0.9);
 }
 
+.btn-secondary:hover{
+    transform: scale(1.1);
+}
+
 a:hover{
-    filter: opacity(0.9);
+    filter: opacity(0.8);
 }
 
 /* /EFFECTS & ANIMATIONS */
